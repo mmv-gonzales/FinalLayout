@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.wrapper-div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    min-height: 65px;
+    background-color: #F1CFB7;
+    line-height: 65px;  
+}
+
+#logo-div {
+    width: 50%;
+    min-height: 70px;
+    background-color: #F1CFB7;
+    padding-left: 2%;
+    line-height: 70px;
+}
+
+#logo-div {
+    vertical-align: middle;
+    display: flex;
+}
+
+#logo-div img {
+    vertical-align: middle;
+    display: flex;
+}
+
+#nav-div{
+    width: 100%;
+    min-height: 30px;
+    background-color: #FFF0E6;
+    line-height: 30px;  
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#nav-link a {
+    align-items: center;
+}
+
+.nav-link{
+    width: 15%;
+    min-height: 40px;
+    text-align: center;
+    line-height: 40px; 
+    float: left;
+}
+
+#main-div {
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+    line-height: 400px;
+} 
+
+#sidebar-div {
+    width: 20%; 
+    min-height: 100%;
+    background-color: #FFF0E6;
+    float: left;
+    padding-left: 10px;
+    line-height: 400px;
+}
+
+.sidebar{
+    width: 20%; 
+    min-height: 50px;
+    background-color: #FFF0E6;
+    text-align: center;
+    line-height: 50px;  
+}
+
+.sidebar a{
+    padding: none;
+}
+
+#bodyarea-div {
+    width: 80%; 
+    min-height: 100%;
+    background-color: #FFF0E6;
+    float: right;
+    padding: 20px;
+    line-height: 140px;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 100%;
+    height: 15vh;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#footer-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: #F1CFB7;
+    text-align: center;
+    line-height: 50px;
+}
+
+#footer-div img {
+    align-items: center;
+}
+
+#wrapper-div {
+    width: 100%;
+    margin: auto;
+}
